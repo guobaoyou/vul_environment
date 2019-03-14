@@ -1,4 +1,11 @@
 #Maccms Background arbitrary file write to getshell#
+##
+version:v10 
+soft download:http://www.maccms.com/
+##
+
+
+
 
 Log in to the background, click on Basic -> Category Management; you can see the category page template used for each category. 
 And you can see that the template used here is /art/type.html
