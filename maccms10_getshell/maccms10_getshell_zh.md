@@ -1,5 +1,9 @@
 
 #Maccms 后台任意文件写入致getshell#
+##
+verison:v10 最新版
+官网:http://www.maccms.com/
+##
 
 登录后台，点击基础-》分类管理；可以看见每一种类别都是用的分类页模板。并且可以看出该处使用的模板为/art/type.html
 ![image](https://github.com/guobaoyou/vul_environment/blob/master/maccms10_getshell/images/1.png)
