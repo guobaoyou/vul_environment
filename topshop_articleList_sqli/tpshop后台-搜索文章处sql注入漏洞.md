@@ -7,12 +7,16 @@
 
 首先要登录后台，这也是我说漏洞很鸡肋的原因。 
 漏洞位于在后台的商城-》文章->文章列表处的搜索 
+
  ![image](https://github.com/guobaoyou/vul_environment/tree/master/topshop_articleList_sqli/images/1.png) 
+ 
 抓包，存在漏洞的参数是keywords，当输入payload 
 ' or length(database())=10)#时，页面返回文章数0， 
+
  ![image](https://github.com/guobaoyou/vul_environment/tree/master/topshop_articleList_sqli/images/2.png)
 
 而当输入payload' or length(database())=9)#时，页面返回为共33篇文章（总共33篇，数据库名是tpshop2.0） 
+
  ![image](https://github.com/guobaoyou/vul_environment/tree/master/topshop_articleList_sqli/images/3.png)
 
 因此可以通过布尔注入来获取数据库信息，当然延时也可以，只不过我自己是能不用延时就不用延时的人。
@@ -46,6 +50,7 @@
         return $this->fetch('articleList');
 ```
 最后执行的sql语句为： 
+
  ![image](https://github.com/guobaoyou/vul_environment/tree/master/topshop_articleList_sqli/images/4.png)
 
 ## 其他
