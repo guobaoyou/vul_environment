@@ -1,2 +1,2 @@
-laysns 2.55°æ±¾ÖĞ´æÔÚXSSÂ©¶´¡£ËÑË÷´¦Ã»ÓĞ½øĞĞÈÎºÎµÄ¹ıÂË¡£ÊäÈë<script>alert(1)</script>¼´¿É
-![image](https://github.com/guobaoyou/vul_environment/blob/master/laysns_xss/1.png)
+laysns 2.55ç‰ˆæœ¬ä¸­å­˜åœ¨XSSæ¼æ´ã€‚æœç´¢å¤„æ²¡æœ‰è¿›è¡Œä»»ä½•çš„è¿‡æ»¤ã€‚è¾“å…¥<script>alert(1)</script>å³å¯
+![image](https://github.com/guobaoyou/vul_environment/blob/master/laysns_xss/1.jpg)
